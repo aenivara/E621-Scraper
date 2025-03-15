@@ -78,7 +78,7 @@ Ensure you have Python 3.6 or higher installed.
 
 4. **During the Scrape:**  
    - The tool first scans your query and shows the total number of available pages and posts.  
-   - After confirmation, it clears the screen and starts downloading, displaying a retro progress bar on one line.  
+   - After confirmation, it clears the screen and starts downloading, displaying a progress bar.  
    - A metadata file (posts_metadata.json) is saved in the session folder, containing details of the scraped posts.
 
 ## Troubleshooting
@@ -86,10 +86,6 @@ Ensure you have Python 3.6 or higher installed.
 - **Directory Issues:** Make sure the working directory exists or agree to have it created.
 - **Network Problems:** Verify that your internet connection is stable, as the tool connects to the e621 API.
 - **Dependency Errors:** Ensure that requests is installed in your active virtual environment.
-
-## License
-
-Choose a license that suits your project. If you want to enforce that derivative works remain open source, consider the GNU GPL. If you prefer a more permissive approach (allowing closed-source use), consider the MIT or Apache licenses.
 
 ## Contributing
 
