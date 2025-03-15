@@ -14,6 +14,7 @@ E621-Scraper is a Python command line tool for both Linux and Windows. It scrape
 ## Prerequisites
 
 Ensure you have Python 3.6 or higher installed.
+Ensure you include your e621 username and API key in the script. (Line 72)
 
 ### For Linux
 
